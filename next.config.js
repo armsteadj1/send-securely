@@ -4,6 +4,7 @@ const { i18n } = require('./next-i18next.config');
 module.exports = {
   i18n,
   poweredByHeader: false,
+  runtime: 'edge',
   experimental: {
     runtime: 'edge',
   },
